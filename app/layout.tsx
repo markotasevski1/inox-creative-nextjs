@@ -18,8 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavigationMenu />
-        {children}
+        <div className="max-w-[2600px] m-auto">
+          <NavigationMenu />
+          {children}
+        </div>
       </body>
     </html>
   )
