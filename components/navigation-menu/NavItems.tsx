@@ -1,10 +1,32 @@
-export function NavItems() {
-  const navItems = ['item1', 'item2', 'item3']
+import { twMerge } from 'tailwind-merge'
+import NavItem from './NavItem'
+type NavItemProps = {
+  className?: string
+}
+export default function NavItems({ className }: NavItemProps) {
+  const navigationItems = [
+    {
+      name: 'Home',
+      href: '/',
+    },
+    {
+      name: 'About',
+      href: '/about-us',
+    },
+    {
+      name: 'Solutions',
+      href: '/solutions',
+    },
+    {
+      name: 'Contact',
+      href: '/contact',
+    },
+  ]
   return (
-    <div className="flex gap-x-4">
-      {navItems.map((item) => (
-        <h1 key={item}>{item}</h1>
+    <nav className={twMerge('hidden md:flex gap-4', className)}>
+      {navigationItems.map((item, index) => (
+        <NavItem key={index} name={item.name} href={item.href} />
       ))}
-    </div>
+    </nav>
   )
 }
