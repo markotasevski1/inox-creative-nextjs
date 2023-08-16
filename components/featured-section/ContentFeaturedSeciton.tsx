@@ -2,7 +2,7 @@ import PrimaryButton from '../buttons/PrimaryButton'
 
 export default function ContentFeaturedSeciton() {
   return (
-    <div className="w-5/6 md:w-2/5 border-2 m-auto">
+    <div className="w-5/6 md:w-2/4 border-2 m-auto ">
       <h5 className="text-xs">Ready to see the results?</h5>
 
       <h2 className="text-5xl font-semibold"> Start your revolution</h2>
