@@ -10,3 +10,15 @@ export interface StaticRequire {
   default: StaticImageData
 }
 export type StaticImport = StaticRequire | StaticImageData
+export type Machine = {
+  id?: string
+  attributes: MachineAttributes
+}
+export type MachineAttributes = {
+  machineTitle?: string
+  machineManufacturedDate?: string
+  machineSummary?: string
+  machineContent?: string
+  createdAt?: string
+  machineImageUrl?: string
+}

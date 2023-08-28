@@ -1,5 +1,5 @@
 async function getData() {
-  const res = await fetch('http://127.0.0.1:1337/api/machines')
+  const res = await fetch('http://127.0.0.1:1337/api/machines?populate=*')
   // The return value is *not* serialized
   // You can return Date, Map, Set, etc.
 
@@ -11,8 +11,8 @@ async function getData() {
   return res.json()
 }
 
-export default async function Page() {
+export default async function AboutUs() {
   const data = await getData()
-  console.log(data)
-  return <main></main>
+
+  return <div>{data}</div>
 }

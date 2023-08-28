@@ -16,7 +16,6 @@ async function getData() {
 }
 export default async function FeaturedSection() {
   const data = await getData()
-  console.log(data)
   return (
     <div className="border-2 max-w-[1025px] m-auto flex flex-col align-middle md:flex-row justify-evenly mt-6">
       <ContentFeaturedSeciton />
