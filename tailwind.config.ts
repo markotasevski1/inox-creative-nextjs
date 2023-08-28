@@ -19,6 +19,9 @@ const config: Config = {
       backgroundColor: {
         'dark-blue': '#2B2D42',
       },
+      width: {
+        '30%': '30%',
+      },
     },
   },
   plugins: [],

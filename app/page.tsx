@@ -1,6 +1,20 @@
+import CtaSection from '@/components/cta-section/CtaSection'
+import { DemoCtaSection } from '@/components/cta-section/DemoCtaSection'
+import FeaturedSection from '@/components/featured-section/FeaturedSection'
+import Footer from '@/components/footer/Footer'
 import { MainHeroSection } from '@/components/hero-sections/MainHeroSection'
-import Image from 'next/image'
+import SolutionsShowcase from '@/components/solutions-showcase/SolutionsShowcase'
 
 export default function Home() {
-  return <MainHeroSection />
+  return (
+    <>
+      <MainHeroSection />
+      <FeaturedSection />
+      <CtaSection />
+      <SolutionsShowcase />
+      <FeaturedSection />
+      <DemoCtaSection />
+      <Footer />
+    </>
+  )
 }
