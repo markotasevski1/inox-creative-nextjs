@@ -25,10 +25,10 @@ export function MainHeroSection() {
   }, [])
   return (
     <div className="relative max-w-5xl border-2 mx-auto pt-20 sm:pt-24 lg:pt-32">
-      <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white">
+      <h1 className="text-slate-900 font-extrabold text-4xl sm:text-5xl lg:text-6xl tracking-tight text-center dark:text-white ">
         Rapidly build modern websites without ever leaving your HTML.
       </h1>
-      <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400">
+      <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400 ">
         A utility-first CSS framework packed with classes like{' '}
         <code className="font-mono font-medium text-sky-500 dark:text-sky-400">
           flex

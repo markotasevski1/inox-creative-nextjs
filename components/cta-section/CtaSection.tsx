@@ -1,16 +1,29 @@
 import React from 'react'
 import PrimaryButton from '../buttons/PrimaryButton'
+import strings from '../../data/strings.json'
 
-export default function CtaSection() {
+interface CtaSectionProps {
+  ctaTitle?: string
+  ctaDescription?: string
+  ctaButtonType?: string
+  ctaButtonHref?: string
+}
+
+export default function CtaSection({
+  ctaTitle,
+  ctaDescription,
+  ctaButtonType,
+}: CtaSectionProps) {
+  // Determine the content and class names dynamically
+  const title = ctaTitle || strings.CtaTitle
+  const description = ctaDescription || strings.CtaDescription
+
   return (
-    <div className="border-2 max-w-[1025px] m-auto mt-5">
-      <h3>Experience the Difference:</h3>
-      <p>
-        Are you ready to take your business to new heights? At Inox Creative, we
-        specialize in providing state-of-the-art machines that are designed to
-        revolutionize your industry. Boost your production capabilities and
-        streamline your operations with our advanced machines.{' '}
-      </p>
+    <div className="border-2 max-w-[1300px] m-auto mt-5">
+      <h2 className="w-4/5 border-2 m-auto text-center font-bold text-5xl">
+        {title}
+      </h2>
+      <p className="w-4/5 border-2 m-auto text-center">{description}</p>
       <PrimaryButton href="/contact">Contact us</PrimaryButton>
     </div>
   )

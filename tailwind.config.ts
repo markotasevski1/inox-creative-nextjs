@@ -1,3 +1,4 @@
+import { Roboto_Condensed } from 'next/font/google'
 import type { Config } from 'tailwindcss'
 
 const config: Config = {
@@ -21,6 +22,11 @@ const config: Config = {
       },
       width: {
         '30%': '30%',
+      },
+      fontFamily: {
+        lora: "'Lora',serif",
+        dm: "'DM Mono',monospace",
+        roboto_condensed: "'Roboto Condensed', sans-serif;",
       },
     },
   },
