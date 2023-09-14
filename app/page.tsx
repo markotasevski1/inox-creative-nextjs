@@ -10,7 +10,7 @@ export default function Home() {
     <>
       <MainHeroSection />
       <FeaturedSection />
-      <CtaSection />
+      <CtaSection ctaButtonHref="/contact" />
       <SolutionsShowcase />
       <FeaturedSection />
       <DemoCtaSection />

@@ -3,7 +3,7 @@ import NextLink from 'next/link'
 // @ts-ignore
 import Typed from 'typed.js'
 import { useEffect, useRef } from 'react'
-import PrimaryButton from '../buttons/PrimaryButton'
+import { Button } from '../buttons/Button'
 
 export function MainHeroSection() {
   const el = useRef(null)
@@ -49,7 +49,7 @@ export function MainHeroSection() {
       </p>
       <span ref={el}></span>
       <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
-        <PrimaryButton>Get started</PrimaryButton>
+        <Button href="about-us">Get started</Button>
       </div>
     </div>
   )

@@ -21,9 +21,15 @@ export default function NavItems({ className }: NavItemProps) {
       name: 'Contact',
       href: '/contact',
     },
+    {
+      name: 'Company',
+      href: '/company',
+    },
   ]
   return (
-    <nav className={twMerge('hidden md:flex gap-4', className)}>
+    <nav
+      className={twMerge('hidden md:flex gap-4 mt-0.5 items-center', className)}
+    >
       {navigationItems.map((item, index) => (
         <NavItem key={index} name={item.name} href={item.href} />
       ))}
