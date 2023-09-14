@@ -19,15 +19,11 @@ export default function CtaSection({
   const description = ctaDescription || strings.CtaDescription
 
   return (
-    <div className="border-2 max-w-[1300px] m-auto mt-5 flex flex-col gap-6">
-      <h2 className="w-4/5 border-2 m-auto text-center font-bold text-5xl">
-        {title}
-      </h2>
-      <p className="w-4/5 border-2 m-auto text-center max-w-4xl">
-        {description}
-      </p>
+    <div className=" border-2 max-w-[1300px] m-auto mt-5 flex flex-col gap-6">
+      <h2 className="w-4/5 m-auto text-center font-bold text-5xl">{title}</h2>
+      <p className="w-4/5  m-auto text-center max-w-4xl">{description}</p>
 
-      <div className="m-auto w-fit border-2">
+      <div className="m-auto w-fit ">
         <Button href={ctaButtonHref} color="sky">
           Contact us
         </Button>

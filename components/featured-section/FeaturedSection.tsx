@@ -21,11 +21,11 @@ export default async function FeaturedSection() {
       <ContentFeaturedSeciton />
 
       <ImageWrapper
-        className="w-1/2 border-2 flex  items-center justify-center"
+        className="w-1/2  flex  items-center justify-center"
         src={Slika6.src}
         alt="test"
-        width={500}
-        height={150}
+        width={370}
+        height={100}
       />
     </div>
   )

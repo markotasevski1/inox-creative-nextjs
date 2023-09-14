@@ -9,8 +9,8 @@ export default function Logo({ className }: LogoProps) {
       src={InoxLogoImage}
       alt={'inox creative logo'}
       className={className}
-      width={150}
-      height={150}
+      width={200}
+      height={200}
     />
   )
 }

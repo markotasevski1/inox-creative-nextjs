@@ -4,7 +4,7 @@ import FeaturedSection from '@/components/featured-section/FeaturedSection'
 import Footer from '@/components/footer/Footer'
 import { MainHeroSection } from '@/components/hero-sections/MainHeroSection'
 import SolutionsShowcase from '@/components/solutions-showcase/SolutionsShowcase'
-
+import PartnersSection from '../components/partners-section/PartnersSection'
 export default function Home() {
   return (
     <>
@@ -14,6 +14,7 @@ export default function Home() {
       <SolutionsShowcase />
       <FeaturedSection />
       <DemoCtaSection />
+      <PartnersSection />
       <Footer />
     </>
   )
