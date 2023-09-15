@@ -3,9 +3,9 @@ import { navigationItems } from '../navigation-menu/navigationItems'
 import { twMerge } from 'tailwind-merge'
 import Link from 'next/link'
 
-export default function Footer({ className }: { className: string }) {
+export default function Footer({ className }: { className?: string }) {
   return (
-    <div className="mt-10 p-4 bg-stone-800 text-stone-300">
+    <div className="p-4 bg-stone-800 text-stone-300">
       <nav className="mt-4 flex justify-center items-center gap-x-4 text-lg">
         {navigationItems.map((item, index) => (
           <Link href={item.href} key={index}>

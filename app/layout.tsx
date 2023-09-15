@@ -2,6 +2,7 @@ import NavigationMenu from '@/components/navigation-menu/NavigationMenu'
 import './globals.css'
 import type { Metadata } from 'next'
 import { Roboto_Condensed } from 'next/font/google'
+import Footer from '@/components/footer/Footer'
 
 const roboto = Roboto_Condensed({
   subsets: ['latin'],
@@ -20,9 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
-        <div className="max-w-[2600px] m-auto">
+        <div className="m-auto bg-tailwind-dark-blue-color">
           <NavigationMenu />
           {children}
+          <Footer />
         </div>
       </body>
     </html>

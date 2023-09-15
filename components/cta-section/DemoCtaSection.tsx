@@ -139,7 +139,12 @@ export function DemoCtaSection() {
             more.
           </p>
         </Paragraph>
-        <Link href="/solutions" color="indigo" darkColor="gray">
+        <Link
+          href="/solutions"
+          color="indigo"
+          darkColor="gray"
+          className={undefined}
+        >
           Learn more<span className="sr-only">, grid template columns</span>
         </Link>
         <div className="mt-10">
