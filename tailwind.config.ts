@@ -28,6 +28,9 @@ const config: Config = {
         dm: "'DM Mono',monospace",
         roboto_condensed: "'Roboto Condensed', sans-serif;",
       },
+      fontSize: {
+        '4xl': '2.341rem',
+      },
     },
   },
   plugins: [],

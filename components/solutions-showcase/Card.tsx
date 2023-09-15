@@ -15,7 +15,7 @@ export default function Card({
   solutionHref = 'test',
 }: CardProps) {
   return (
-    <div className="w-[287px] box-styling">
+    <div className="w-[287px] box-styling rounded-t-xl bg-white text-gray-900 col">
       <NextLink href={solutionHref}>
         <div className=" rounded-t-xl">
           <div className="w-[287px] h-[243px] rounded-t-xl relative">

@@ -16,7 +16,7 @@ export default function NavigationMenu({ menuItems }: NavigationMenuProps) {
   }
   return (
     <div className=" border-red-500 bg-dark-blue">
-      <div className="w-full max-w-xxl  flex  justify-around md:justify-center pt-8 pb-4 gap-3">
+      <div className="w-full max-w-xxl  flex  justify-around md:justify-center pt-6 pb-2 gap-3">
         <Logo />
         <div className="flex align-center justify-center">
           <div className="flex items-center md:hidden">

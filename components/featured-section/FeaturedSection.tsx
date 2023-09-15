@@ -17,7 +17,7 @@ async function getData() {
 export default async function FeaturedSection() {
   const data = await getData()
   return (
-    <div className=" max-w-[1200px] m-auto flex align-middle md:flex-row justify-evenly mt-6">
+    <div className=" border-2 mb-10 max-w-[1200px] m-auto flex align-middle md:flex-row justify-evenly mt-6">
       <ContentFeaturedSeciton />
 
       <ImageWrapper
