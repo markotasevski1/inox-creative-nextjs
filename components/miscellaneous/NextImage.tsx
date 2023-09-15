@@ -8,6 +8,7 @@ export default function NextImage({ src, alt, ...props }: ImageProps) {
       fill={props.fill}
       width={props.width}
       height={props.height}
+      className={props.className}
     />
   )
 }

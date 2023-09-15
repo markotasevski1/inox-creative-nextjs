@@ -17,10 +17,16 @@ async function getData() {
 export default async function FeaturedSection() {
   const data = await getData()
   return (
-    <div className="border-2 max-w-[1025px] m-auto flex flex-col align-middle md:flex-row justify-evenly mt-6">
+    <div className=" border-2 mb-10 max-w-[1200px] m-auto flex align-middle md:flex-row justify-evenly mt-6">
       <ContentFeaturedSeciton />
 
-      <ImageWrapper src={Slika6.src} alt="test" width={400} height={50} />
+      <ImageWrapper
+        className="w-1/2  flex  items-center justify-center"
+        src={Slika6.src}
+        alt="test"
+        width={370}
+        height={100}
+      />
     </div>
   )
 }

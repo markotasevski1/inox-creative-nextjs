@@ -1,3 +1,4 @@
+import { Machine } from '../../types/types'
 async function getData() {
   const res = await fetch('http://127.0.0.1:1337/api/machines?populate=*')
   // The return value is *not* serialized
@@ -13,6 +14,13 @@ async function getData() {
 
 export default async function AboutUs() {
   const data = await getData()
-
-  return <div>{data}</div>
+  return (
+    <div>
+      {data.data.map((solution: Machine) => (
+        <>
+          <div key={solution.id}>{solution.id}</div>
+        </>
+      ))}
+    </div>
+  )
 }

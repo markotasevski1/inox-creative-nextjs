@@ -24,4 +24,10 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+  font-family: 'Roboto';
+}
+.box-styling {
+  box-shadow: 6px 8px 4px -2px rgba(68, 68, 68, 0.75);
+  -webkit-box-shadow: 6px 8px 4px -2px rgba(68, 68, 68, 0.75);
+  -moz-box-shadow: 6px 8px 4px -2px rgba(68, 68, 68, 0.75);
 }

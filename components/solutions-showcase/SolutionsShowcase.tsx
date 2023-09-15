@@ -2,6 +2,7 @@ import React from 'react'
 import Card from './Card'
 import SolutionImage from '../../assets/slika3.jpg'
 import { GetFirstNElements } from '../../utils/utilFunctions'
+
 export default function SolutionsShowcase() {
   const solutionsTest = [
     {
@@ -35,8 +36,10 @@ export default function SolutionsShowcase() {
   ]
   const arrayToRender = GetFirstNElements(3, solutionsTest)
   return (
-    <div className="border-2 max-w-[1025px] m-auto mt-5">
-      <h2 className="text-center">Latest Products</h2>
+    <div className=" max-w-[1025px] m-auto mt-5 mb-20 ">
+      <h2 className=" mb-[63px] text-4xl text-center font-bold">
+        Latest Products
+      </h2>
       <div className="flex align-middle justify-between ">
         {arrayToRender.map((solutions: any, index: any) => (
           <Card
