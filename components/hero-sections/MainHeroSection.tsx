@@ -33,7 +33,7 @@ export function MainHeroSection() {
         <code className="font-mono font-medium text-sky-500 dark:text-sky-400">
           <span ref={el}></span>
         </code>
-        that can be composed to build any design, directly in your markup.
+        that can be composed to build any design, directly in your markup..
       </p>
 
       <div className="mt-6 sm:mt-10 flex justify-center space-x-6 text-sm">
