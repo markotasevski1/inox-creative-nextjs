@@ -8,7 +8,7 @@ import PartnersSection from '../components/partners-section/PartnersSection'
 export default function Home() {
   return (
     <>
-      <MainHeroSection />
+      <MainHeroSection hasContentBlock={true} />
       <FeaturedSection />
       <CtaSection ctaButtonHref="/contact" />
       <SolutionsShowcase />
