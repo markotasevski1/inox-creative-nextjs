@@ -43,6 +43,9 @@ const config: Config = {
         '6': '6px',
         '8': '8px',
       },
+      minHeight: {
+        '600': '20px',
+      },
     },
   },
   plugins: [],

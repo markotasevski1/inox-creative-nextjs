@@ -15,7 +15,6 @@ export default function Home() {
       <FeaturedSection />
       <DemoCtaSection />
       <PartnersSection />
-      <Footer />
     </>
   )
 }
