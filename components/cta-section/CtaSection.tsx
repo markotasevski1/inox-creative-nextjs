@@ -24,7 +24,7 @@ export default function CtaSection({
     animateCtaTitle()
   }, [])
   return (
-    <div className="bg-slight-dark-blue  ">
+    <div className="bg-tailwind-dark-blue-color ">
       <div className="cta-title py-8 max-w-7xl  m-auto   flex flex-col gap-6  ">
         <h2 className="  w-4/5 m-auto text-center font-medium text-4xl">
           {title}

@@ -114,7 +114,7 @@ export function DemoCtaSection() {
 
   return (
     <section id="modern-features ">
-      <div className=" mx-auto px-4 sm:px-6 md:px-8 max-w-[1025px] border-2">
+      <div className=" mx-auto px-4 sm:px-6 md:px-8 max-w-[1025px] ">
         <IconContainer
           className="dark:bg-indigo-500 dark:highlight-white/20"
           light={require('../../assets/modern-features.png').default.src}
