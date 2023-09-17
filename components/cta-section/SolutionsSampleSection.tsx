@@ -98,7 +98,7 @@ const tabs = {
 //   )
 // }
 
-export function DemoCtaSection() {
+export function SolutionsSampleSection() {
   const [feature, setFeature] = useState('CSS Grid')
 
   //   const animate = (transforms, grid) => {

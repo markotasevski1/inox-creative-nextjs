@@ -22,13 +22,13 @@ export default function HeroSectionHeader() {
     }
   }, [])
   return (
-    <div className=" max-w-4xl m-auto">
-      <h1 className="text-slate-900  font-extrabold text-4xl sm:text-4xl lg:text-6xl tracking-tight text-center dark:text-white ">
+    <div className=" m-auto ">
+      <h1 className=" text-slate-900  font-medium text-4xl sm:text-4xl lg:text-8xl tracking-tight text-center dark:text-white ">
         Rapidly build modern websites without ever leaving your HTML.
       </h1>
-      <p className="mt-6 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400 ">
+      <p className="mt-8 text-lg text-slate-600 text-center max-w-3xl mx-auto dark:text-slate-400 ">
         A utility-first CSS framework packed with classes like{' '}
-        <code className="font-mono font-medium text-sky-500 dark:text-sky-400">
+        <code className="font-mono font-normal text-sky-500 dark:text-sky-400">
           <span ref={el}></span>
         </code>
         that can be composed to build any design, directly in your markup..

@@ -1,5 +1,5 @@
 import CtaSection from '@/components/cta-section/CtaSection'
-import { DemoCtaSection } from '@/components/cta-section/DemoCtaSection'
+import { SolutionsSampleSection } from '@/components/cta-section/SolutionsSampleSection'
 import FeaturedSection from '@/components/featured-section/FeaturedSection'
 import Footer from '@/components/footer/Footer'
 import { MainHeroSection } from '@/components/hero-sections/MainHeroSection'
@@ -13,7 +13,7 @@ export default function Home() {
       <CtaSection ctaButtonHref="/contact" />
       <SolutionsShowcase />
       <FeaturedSection flexDirection="row" />
-      <DemoCtaSection />
+      <SolutionsSampleSection />
       <PartnersSection />
     </>
   )
