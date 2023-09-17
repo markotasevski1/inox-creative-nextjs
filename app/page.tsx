@@ -9,10 +9,10 @@ export default function Home() {
   return (
     <>
       <MainHeroSection hasContentBlock={true} />
-      <FeaturedSection />
+      <FeaturedSection flexDirection="row-reverse" />
       <CtaSection ctaButtonHref="/contact" />
       <SolutionsShowcase />
-      <FeaturedSection />
+      <FeaturedSection flexDirection="row" />
       <DemoCtaSection />
       <PartnersSection />
     </>
