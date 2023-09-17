@@ -29,7 +29,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "components/cta-section/Tabs.js",
-    "components/three-scene/ThreeScene.js"
+    "components/three-scene/ThreeScene.js",
+    "components/fetchData"
   ],
   "exclude": ["node_modules"]
 }

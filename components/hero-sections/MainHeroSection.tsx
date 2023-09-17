@@ -7,10 +7,10 @@ type MainHeroSectionProps = {
 export function MainHeroSection({
   hasContentBlock = false,
 }: MainHeroSectionProps) {
-  const marginBottomClass = hasContentBlock ? 'mb-64' : 'pb-40'
+  const marginBottomClass = hasContentBlock ? 'mb-40' : 'pb-40'
   return (
-    <div className={`border-2 ${marginBottomClass}`}>
-      <div className="relative max-w-5xl    mx-auto pt-20 sm:pt-24 lg:pt-32 max-h-[610px] ">
+    <div className={`border-2  ${marginBottomClass}`}>
+      <div className="relative max-w-4xl   mx-auto pt-20 sm:pt-24 lg:pt-32 max-h-[610px] ">
         <HeroSectionHeader />
         {hasContentBlock && <HeroSectionContentBlock />}
       </div>

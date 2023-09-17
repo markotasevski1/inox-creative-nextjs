@@ -2,7 +2,7 @@ import { Button } from '../buttons/Button'
 
 export default function ContentFeaturedSeciton() {
   return (
-    <div className="w-5/12 md:w-5/12 m-auto flex items-left flex-col gap-4">
+    <div className="ml-10 w-5/12 md:w-5/12 m-auto flex items-left flex-col gap-4">
       <h5 className="text-xs">Ready to see the results?</h5>
 
       <h2 className="text-4xl font-semibold"> Start your revolution</h2>
