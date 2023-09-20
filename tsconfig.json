@@ -28,9 +28,10 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "components/cta-section/Tabs.js",
+    "components/solutions-sample-section/Tabs.js",
     "components/three-scene/ThreeScene.js",
-    "components/fetchData"
+    "components/fetchData",
+    "components/solutions-sample-section/GridLockUpContainer.tsx"
   ],
   "exclude": ["node_modules"]
 }

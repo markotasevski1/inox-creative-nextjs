@@ -1,5 +1,5 @@
 import CtaSection from '@/components/cta-section/CtaSection'
-import { SolutionsSampleSection } from '@/components/cta-section/SolutionsSampleSection'
+import { SolutionsSampleSection } from '@/components/solutions-sample-section/SolutionsSampleSection'
 import FeaturedSection from '@/components/featured-section/FeaturedSection'
 import Footer from '@/components/footer/Footer'
 import { MainHeroSection } from '@/components/hero-sections/MainHeroSection'
