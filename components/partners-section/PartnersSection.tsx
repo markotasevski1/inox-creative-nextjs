@@ -15,7 +15,7 @@ export default function PartnersSection() {
 
   return (
     <div className="">
-      <div className="max-w-[1300px] border-2 m-auto mt-10">
+      <div className="max-w-[1300px]  m-auto mt-10">
         <div className=" flex flex-col items-center justify-center text-3xl">
           <h2>Our Partnership</h2>
           <p className="text-sm">

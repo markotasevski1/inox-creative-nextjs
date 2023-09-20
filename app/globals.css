@@ -37,3 +37,9 @@ body {
 .background-linear-blue {
   background: linear-gradient(#2b2d42, #7eafdd);
 }
+
+.box-styling-hero-section {
+  box-shadow: 6px 6px 2px 3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 6px 6px 2px 3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 6px 6px 2px 3px rgba(0, 0, 0, 0.75);
+}

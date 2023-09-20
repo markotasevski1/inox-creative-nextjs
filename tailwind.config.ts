@@ -22,6 +22,7 @@ const config: Config = {
         'light-blue': '#7eafdd',
         'slight-dark-blue': '#6a9bcb',
         'tailwind-dark-blue-color': '#0F172A',
+        'dark-purple': '#6366F1',
       },
       width: {
         '30%': '30%',
